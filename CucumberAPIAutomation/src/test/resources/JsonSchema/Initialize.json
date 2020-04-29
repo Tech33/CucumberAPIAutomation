@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "countryCallingCode": {
+      "type": "string"
+    },
+    "timeZoneName": {
+      "type": "string"
+    },
+    "isDeactivated": {
+      "type": "boolean"
+    },
+    "chatAuthenticationToken": {
+      "type": "string"
+    },
+    "chatUserId": {
+      "type": "string"
+    },
+    "coachId": {
+      "type": "integer"
+    },
+    "currentWeight": {
+      "type": "number"
+    },
+    "dateOfBirth": {
+      "type": "string"
+    },
+    "engagementIndexScore": {
+      "type": "integer"
+    },
+    "engagementIndexScoreRaw": {
+      "type": "integer"
+    },
+    "fitbitConnected": {
+      "type": "boolean"
+    },
+    "garminConnected": {
+      "type": "boolean"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "isConsented": {
+      "type": "boolean"
+    },
+    "lastActive": {
+      "type": "string"
+    },
+    "onboarded": {
+      "type": "boolean"
+    },
+    "primaryGoal": {
+      "type": "string"
+    },
+    "psychographicSegment": {
+      "type": "string"
+    },
+    "reminderEvening": {
+      "type": "boolean"
+    },
+    "reminderMindfulness": {
+      "type": "boolean"
+    },
+    "reminderMorning": {
+      "type": "boolean"
+    },
+    "secondaryGoal": {
+      "type": "string"
+    },
+    "startWeight": {
+      "type": "number"
+    },
+    "measurementSystem": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "uuid",
+    "type",
+    "email",
+    "firstName",
+    "lastName",
+    "phone",
+    "countryCallingCode",
+    "timeZoneName",
+    "isDeactivated",
+    "chatAuthenticationToken",
+    "chatUserId",
+    "coachId",
+    "currentWeight",
+    "dateOfBirth",
+    "fitbitConnected",
+    "garminConnected",
+    "gender",
+    "height",
+    "isConsented",
+    "onboarded",
+    "primaryGoal",
+    "secondaryGoal",
+    "startWeight",
+    "measurementSystem"
+  ]
+}

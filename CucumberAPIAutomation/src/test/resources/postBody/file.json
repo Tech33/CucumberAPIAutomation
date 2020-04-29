@@ -1,0 +1,9 @@
+{
+  "countryCallingCode": "${countryCallingCode}",
+  "dateOfBirth": "${dateOfBirth}",
+  "email": "${email}",
+  "firstName": "${firstName}",
+  "gender": "${gender}",
+  "lastName": "${lastName}",
+  "timeZoneName": "${timeZoneName}"
+}

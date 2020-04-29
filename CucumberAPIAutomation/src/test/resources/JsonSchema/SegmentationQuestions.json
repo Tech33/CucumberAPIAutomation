@@ -1,0 +1,242 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "string"
+        },
+        "subtext": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "integer"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "answers": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "segmentationQuestionId": {
+                  "type": "integer"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "sequence": {
+                  "type": "integer"
+                },
+                "codes": {
+                  "type": "string"
+                },
+                "active": {
+                  "type": "boolean"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "segmentationQuestionId",
+                "label",
+                "sequence",
+                "codes",
+                "active",
+                "createdAt",
+                "updatedAt"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "segmentationQuestionId": {
+                  "type": "integer"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "sequence": {
+                  "type": "integer"
+                },
+                "codes": {
+                  "type": "string"
+                },
+                "active": {
+                  "type": "boolean"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "segmentationQuestionId",
+                "label",
+                "sequence",
+                "codes",
+                "active",
+                "createdAt",
+                "updatedAt"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "segmentationQuestionId": {
+                  "type": "integer"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "sequence": {
+                  "type": "integer"
+                },
+                "codes": {
+                  "type": "string"
+                },
+                "active": {
+                  "type": "boolean"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "segmentationQuestionId",
+                "label",
+                "sequence",
+                "codes",
+                "active",
+                "createdAt",
+                "updatedAt"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "segmentationQuestionId": {
+                  "type": "integer"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "sequence": {
+                  "type": "integer"
+                },
+                "codes": {
+                  "type": "string"
+                },
+                "active": {
+                  "type": "boolean"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "segmentationQuestionId",
+                "label",
+                "sequence",
+                "codes",
+                "active",
+                "createdAt",
+                "updatedAt"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "segmentationQuestionId": {
+                  "type": "integer"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "sequence": {
+                  "type": "integer"
+                },
+                "codes": {
+                  "type": "string"
+                },
+                "active": {
+                  "type": "boolean"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "segmentationQuestionId",
+                "label",
+                "sequence",
+                "codes",
+                "active",
+                "createdAt",
+                "updatedAt"
+              ]
+            }
+          ]
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "subtext",
+        "sequence",
+        "active",
+        "answers",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  ]
+}
